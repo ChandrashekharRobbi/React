@@ -13,6 +13,7 @@ function App() {
 
   const inputValid = userInput.duration >= 1;
 
+  // change only which we have to update
   function handleChange(inputIdentifier, newValue) {
     setUserInput((previousInput) => {
       return {
